@@ -1,0 +1,1 @@
+exiftool-wrapper==0.1.0   # only if used
