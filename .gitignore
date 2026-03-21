@@ -1,4 +1,7 @@
 .venv/
 __pycache__/
 *.pyc
+.DS_Store
 retag_report.csv
+retag.log
+sqlite/*.db
