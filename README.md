@@ -2,6 +2,14 @@
 
 Bulk tag rename/normalization tool for WebAlbum media files.
 
+## Status
+
+This repository is now deprecated.
+
+`retag` has been merged into [`indexer2`](/Users/bajanp/Projects/indexer2/README.md) as a maintenance CLI tool. The reason for that merge is that `retag` and `indexer2` are operationally interdependent around the same SQLite database: `retag` updates file metadata, and `indexer2` refreshes the SQLite index to keep it in sync.
+
+For ongoing use and future changes, use the `retag` maintenance CLI inside `indexer2`.
+
 `retag_media.py` reads a two-column CSV mapping file:
 
 - column 1: current tag in media metadata
